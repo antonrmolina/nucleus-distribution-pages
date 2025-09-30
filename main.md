@@ -5,7 +5,7 @@ title: Pages
 # Collections
 
 - [Implementation Template](./collections/instance-template/instance-template.md)
-- [Implementation 01](./collections/instance-01/instance-01.md)
+- [Implementation First](./collections/instance-01/instance-first.md)
 
 
 # Processes
