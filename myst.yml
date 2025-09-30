@@ -1,7 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: 8b088e7a-1041-4373-9afa-97917641665b
+  id: 67c08a7c-41d6-452f-9195-44be1c24d3eb
   # title:
   # description:
   # keywords: []
@@ -13,9 +13,9 @@ project:
     - file: main.md
     - title: Collections
       children:
-        - title: Instance 01
+        - title: Instance First
           children:
-            - file: collections/instance-01/instance-01.md
+            - file: collections/instance-first/instance-first.md
         - title: Instance Template
           children:
             - file: collections/instance-template/instance-template.md
@@ -23,10 +23,10 @@ project:
       children:
         - title: Make Ribosomes
           children:
-            - file: processes/make-ribosomes/process-Make-ribosomes.md
+            - file: processes/make-ribosomes/process-Make_ribosomes.md
         - title: Make Trna
           children:
-            - file: processes/make-trna/process-make-tRNAs.md
+            - file: processes/make-trna/process-Make_tRNAs.md
     
 site:
   template: book-theme
