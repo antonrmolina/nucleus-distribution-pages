@@ -28,6 +28,9 @@ project:
     
 site:
   template: book-theme
+  options:
+    hide_outline: true
+    hide_toc: true
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
