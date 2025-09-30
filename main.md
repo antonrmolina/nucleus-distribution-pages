@@ -4,6 +4,7 @@ title: Pages
 
 # Collections
 
+- [Implementation](./collections/instance-template/instance.md)
 
 
 # Processes
