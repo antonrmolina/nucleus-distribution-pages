@@ -42,24 +42,25 @@ We purify RNAs and Riboproteins from *E. coli* A19 biomass ([CGSC 5997](https://
 ::::{grid} 1 1 2 2
 
 :::{card}
-:header: Lab-ready Protocol
+:header: **Lab-ready Protocol**
+:algin: center
 
-{button}`download <>`
+{button}`download <protocol-Make-tRNAs.pdf>`
 :::
 
 :::{card}
-:header: Buffer recipes
-{button}`download`
+:header: **Buffer Recipes**
+{button}`download <protocol-Make-tRNAs.pdf>`
 :::
 
 :::{card}
-:header: Bill of Materials
-{button}`download`
+:header: **Bill of Materials**
+{button}`download <protocol-Make-tRNAs.pdf>`
 :::
 
 :::{card}
-:header: Platemap
-{button}`download`
+:header: **Platemap**
+{button}`download <protocol-Make-tRNAs.pdf>`
 :::
 ::::
 
