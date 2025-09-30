@@ -26,7 +26,7 @@ project:
             - file: processes/make-ribosomes/process-Make-ribosomes.md
         - title: Make Trna
           children:
-            - file: processes/make-trna/process.md
+            - file: processes/make-trna/process-make-tRNAs.md
     
 site:
   template: book-theme
