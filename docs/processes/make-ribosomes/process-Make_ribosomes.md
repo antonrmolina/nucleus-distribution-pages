@@ -24,22 +24,22 @@ We purify RNAs and Riboproteins from *E. coli* A19 biomass ([CGSC 5997](https://
 :header: **Lab-ready Protocol**
 :algin: center
 
-{button}`download <protocol-Make-ribosomes.pdf>`
+{button}`download <protocol-Make_ribosomes.pdf>`
 :::
 
 :::{card}
 :header: **Buffer Recipes**
-{button}`download <protocol-Make-ribosomes.pdf>`
+{button}`download <protocol-Make_ribosomes.pdf>`
 :::
 
 :::{card}
 :header: **Bill of Materials**
-{button}`download <protocol-Make-ribosomes.pdf>`
+{button}`download <protocol-Make_ribosomes.pdf>`
 :::
 
 :::{card}
 :header: **Platemap**
-{button}`download <protocol-Make-ribosomes.pdf>`
+{button}`download <protocol-Make_ribosomes.pdf>`
 :::
 ::::
 

@@ -1,6 +1,8 @@
 version: 1
 project:
   open_access: true
+  resources:
+    - docs/**/*
   license:
     content: CC-BY-4.0
     code: cern-ohl-p
