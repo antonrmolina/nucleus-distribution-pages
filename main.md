@@ -4,15 +4,15 @@ title: Pages
 
 # Collections
 
-- [Implementation Template](./collections/instance-template/instance-template.md)
-- [Implementation First](./collections/instance-first/instance-first.md)
+- [Implementation Template](docs/implementations/implementation-template/implementation-template.md)
+- [Implementation First](docs/implementations/implementation-template/implementation-template.md)
 
 
 # Processes
 
 ## Cytosols
 
-- [Make tRNAs](./processes/make-trna/process-Make_tRNAs.md)
-- [Make Ribosomes](./processes/make-ribosomes/process-Make_ribosomes.md)
+- [Make tRNAs](docs/processes/make-trna/process-Make_tRNAs.md)
+- [Make Ribosomes](docs/processes/make-ribosomes/process-Make_ribosomes.md)
 
 # Modules

@@ -19,10 +19,10 @@ project:
           children:
             - title: Instance First
               children:
-                - file: docs/collections/instance-first/instance-first.md
+                - file: docs/implementations/implementation-first/implementation-first.md
             - title: Instance Template
               children:
-                - file: docs/collections/instance-template/instance-template.md
+                - file: docs/implementations/implementation-template/implementation-template.md
         - title: Processes
           children:
             - title: Make Ribosomes

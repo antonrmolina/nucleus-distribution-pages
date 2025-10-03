@@ -10,6 +10,7 @@ site:
   options:
     hide_outline: true
     hide_toc: true
+    folders: true
     # logo_url: https://bnext.bio/nucleus
     # favicon: https://raw.githubusercontent.com/jupyter-book/jupyter-book/refs/heads/next/docs/media/images/favicon.ico
     # logo: ./logo-v1.png
