@@ -10,4 +10,4 @@ exports:
 
 - BREAKS: Here is a link: Test Link
 - BREAKS: Here is a link: Test Link
-- Here is a link: (<a href="https://sitandr.github.io/typst-examples-book/book/getting_started.html">Energy Mix</a>)
+- BREAKS: Here is a link: (<a href="https://sitandr.github.io/typst-examples-book/book/getting_started.html">Energy Mix</a>)

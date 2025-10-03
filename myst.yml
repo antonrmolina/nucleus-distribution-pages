@@ -3,7 +3,7 @@ version: 1
 extends:
   - ./site.yml
 project:
-  id: ae998065-dbb3-4ab1-963f-bbfd3527291f
+  id: b4fa4234-922a-4a57-80f1-6de661eef834
   # title:
   # description:
   # keywords: []
@@ -15,14 +15,24 @@ project:
     - file: main.md
     - title: Docs
       children:
-        - title: Collections
+        - title: Implementations
           children:
-            - title: Instance First
+            - title: Implementation First
               children:
-                - file: docs/implementations/implementation-first/implementation-first.md
-            - title: Instance Template
+                - file: >-
+                    docs/implementations/implementation-first/implementation-first.md
+            - title: Implementation Template
               children:
-                - file: docs/implementations/implementation-template/implementation-template.md
+                - file: >-
+                    docs/implementations/implementation-template/implementation-template.md
+        - title: Modules
+          children:
+            - title: Module PlamGFP
+              children:
+                - file: docs/modules/module-plamGFP/specification-Module_plamGFP.md
+            - title: Module Template
+              children:
+                - file: docs/modules/module-template/specification-Module_Template.md
         - title: Processes
           children:
             - title: Make Ribosomes

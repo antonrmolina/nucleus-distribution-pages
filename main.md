@@ -16,3 +16,6 @@ title: Pages
 - [Make Ribosomes](docs/processes/make-ribosomes/process-Make_ribosomes.md)
 
 # Modules
+
+- [Module Template](docs/modules/module-template/specification-Module_Template.md)
+- [plamGFP](docs/modules/module-plamGFP/specification-Module_plamGFP.md)
