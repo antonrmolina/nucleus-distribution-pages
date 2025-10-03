@@ -3,7 +3,7 @@ version: 1
 extends:
   - ./site.yml
 project:
-  id: b4fa4234-922a-4a57-80f1-6de661eef834
+  id: cb781abe-2235-4408-ae10-ed0780e17c95
   # title:
   # description:
   # keywords: []
@@ -47,6 +47,14 @@ project:
               children:
                 - file: docs/processes/make-trna/process-Make_tRNAs.md
                 - file: docs/processes/make-trna/protocol-Make_tRNAs.md
+        - title: Tutorials
+          children:
+            - title: Devnotes
+              children:
+                - file: docs/tutorials/devnotes/developer-notes.md
+            - title: Hub
+              children:
+                - file: docs/tutorials/hub/nucleus-hub.md
     
 site:
   template: book-theme
