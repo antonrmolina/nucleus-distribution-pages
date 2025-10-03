@@ -1,81 +1,14 @@
 ---
-title: make tRNAs
+title: Make tRNAs
+exports:
+  - format: typst
+    template: https://github.com/antonrmolina/nucleus-typst-test/archive/refs/heads/main.zip
+    output: protocol-Make_tRNAs.pdf
 ---
-
-# Overview
-
-Transfer RNAs (tRNAs) are small RNA molecules (76 - 90) nt that carry amino acids to ribosomes during protein synthesis. They are essential for translation and can be easily purified following this protocol, which covers bacterial growth, purification, dialysis, and quality assurance. You can use these tRNAs in Make Energy Mix.
-
-:::{tip} Note: we purify ribosomes from *E. coli* A19 biomass
-:class: dropdown
-We purify RNAs and Riboproteins from *E. coli* A19 biomass ([CGSC 5997](https://ecgrc.net/index.php/product/a19/)), a strain with a mutation in RNase I that improves RNA yields. You can use other RNase deficient strains with this protocol, but you may need to optimize this protocol to achieve high yield and purity.
-:::
-
-:::{caution} Caution: work under RNAse-free conditions
-:class: dropdown
-‼️All reagents and materials must be prepared RNase-free. Use RNaseZap or 10% bleach to decontaminate plastic and glassware and rinse with nuclease-free water. We find ultrapure water (18.2 MOhm) is often sufficient for RNase-free work.
-:::
-
-:::{danger} Danger: hazardous materials
-:class: dropdown
-- **Acid Phenol**
-    - Corrosive, toxic, rapidly absorbed through skin, & respiratory irritant
-    - Use in fume hood, wear neoprene gloves, & PPE
-
-- **Acetic Acid**
-    - Corrosive to skin and eyes
-    - Use appropriate PPE and handle under fume-hood
-
-- **Chloroform**
-    - Irritant, possible carcinogen
-    - Work in fume hood & appropriate gloves
-
-- **Ethanol**
-    - Highly flammable, toxic, and irritant
-    - Wear PPE, use in well-ventilated areas, and keep away from open flames
-:::
-
-
-
-# Resurces
-
-::::{grid} 1 1 2 2
-
-:::{card}
-:header: **Lab-ready Protocol**
-:algin: center
-
-{button}`download <protocol-Make-tRNAs.pdf>`
-:::
-
-:::{card}
-:header: **Buffer Recipes**
-{button}`download <protocol-Make-tRNAs.pdf>`
-:::
-
-:::{card}
-:header: **Bill of Materials**
-{button}`download <protocol-Make-tRNAs.pdf>`
-:::
-
-:::{card}
-:header: **Platemap**
-{button}`download <protocol-Make-tRNAs.pdf>`
-:::
-::::
 
 # Protocol
 
 ## Cell culture
-
-:::{tip} Note: you can work from glycerol stocks OR colonies.
-:class: dropdown
-We first need to prepare bacterial cultures. We will work from 6 mL overnight cultures of our expression strains and backdilute them the next day. In order to prepare these overnight cultures, we need stocks of bacteria.
-
-We worked from 100 uL aliquots of our glycerol stocks, frozen in PCR strip tubes. When seeding our overnights with bacteria, we poked one glycerol aliquot with a pipette tip and ejected the tip into culture tubes (more details below).
-
-Optionally, you can work from individual colonies by streaking out your bacterial stocks. Working from colonies assures that your bulk outgrowth will have come from a single colony forming unit.
-:::
 
 - **Prepare overnight cultures.**
     - [ ]  Add 6 mL Luria Broth (LB) under sterile conditions to two (2) 14 mL culture tubes. 6 mL is enough to innoculate 4 x 900 mL bulk outgrowths.
@@ -160,22 +93,10 @@ Optionally, you can work from individual colonies by streaking out your bacteria
     - [ ]  Float cassette in 500 mL nuclease-free water in a large (>600 mL) beaker and gently stir at 4C / 45 min. We do this by putting our beaker in a bucket of ice on a stir plate.
     - [ ]  Change the dialysis buffer and dialyze for another 45 minutes.
 
-:::{tip} Note: you can dialyze overnight.
-:class: dropdown
-Dialysis can be done overnight after changing the dialysis buffer at least once. The manufacturer of Slide-A-Lyzer chips recommends dialyzing for 2 hours, then changing the buffer and dialyzing for another two hours. We have found 2 x 45 min sufficient. 
-
-For more detailed instructions on using the Slide-A-Lyzer, please look at manufacturer’s [manual](https://assets.thermofisher.com/TFS-Assets/LSG/manuals/MAN0027985-SAL-G3-Cassettes-UG-EN.pdf).
-:::
-
 ## Concentrate
 
 - [ ]  Pipette dialyzed tRNAs to the upper chamber of an Amicon® Ultra-0.5 mL Centrifugal Filter, 3 kDa MWCO.
 - [ ]  Centrifuge at 14 000 rcf / 10 min and check the remaining volume in the upper chamber. Repeat until you hit your target volume.
-
-:::{tip} Note: estimate your target volume at 100 uL per 1 g biomass.
-:class: dropdown
-From our experience, a good rule of thumb is to target a final volume around 100 uL per 1g of biomass used (e.g., 3.6 gDCM → concentrate to ~360 uL (~40 ug/uL tRNAs)).
-:::
 
 ## Quality control
 
@@ -184,17 +105,6 @@ From our experience, a good rule of thumb is to target a final volume around 100
     - [ ]  Measure absorbance at 260 nm, 280 nm, and 230 nm.
     - [ ]  Estimate your yield by A260 ([tRNA] = A260 * 40 mg/mL). Typical yield of tRNA is ~ (4-20) mg per gram of cell mass.
     - [ ] Estimate your purity by A260/A230 and A260/A280 (both should be ≥1.8).
-
-:::{tip} Note: [tRNA] = A260 * 40 mg / mL
-:class: dropdown
-A260 units (*a.k.a.* “absorbance units”, or “OD260”) are defined as the amount of light (wavelength = 260 nm) absorbed by a sample resuspended in 1 mL of water as said light passes through 1 cm of said sample. 
-
-Typically, this value is measured by diluting a sample until it’s absorbance is in the linear range (0.5 is acceptable), then multiplying the measured absorbance by the dilution factor.
-
-These units are annoying to design experiments around, but easy to measure. If you want to report mass concentration of your samples instead, you can approximate as ~40 mg/mL per A260 unit of tRNA.
-
-NEB has a great [tool](https://nebiocalculator.neb.com/#!/od260) for converting absorbance units to concentrations. Make sure to select “ssRNA”
-:::
 
 - **Visualize purity by TBE-Urea 10% Gel.**
     - [ ]  (optional) Prepare TBE-Urea 10% Gel
@@ -210,19 +120,12 @@ NEB has a great [tool](https://nebiocalculator.neb.com/#!/od260) for converting 
     - [ ]  Meanwhile, prepare SYBR-Green stain (4 uL in 40 mL water) to stain gel.
     - [ ]  Soak gel in SYBR-Green stain and visualize gel using UV or blue-light transilluminator. You should see multiple distinct bands around 75-90 nt.
 
-:::{tip} Note: RNases digesting your tRNA → smear on gel
-:class: dropdown
-If your sample is contaminated with RNases, your sample quality will decrease as the RNases degrade the tRNAs. A clear sign of tRNA degradation are poorly defined, smeared bands. A clean tRNA prep should have distinct bands.
-
-If your samples appear as a smear on your gel, consider testing your input buffers and final prep for RNase activity (see below).
-:::
-
 - **(Optional) Measure RNase contamination using Ambion RNaseAlert Lab Test Kit.**
     - [ ] We recommend diluting your tRNAs by adding 2 uL to 40 uL of provided sample buffer. 
 
 ## Formulation
 
-- [ ] Dilute your tRNA stocks in nuclease-free water to your working concentration, depending on your application. We recommend 50 ug / uL to use as a component in Energy Mix (see @Make Energy Mix), or 35 ug / uL as a 10x stock for PUREΔtRNA reactions (add 1 uL to 10 uL reactions).
+- [ ] Dilute your tRNA stocks in nuclease-free water to your working concentration, depending on your application. We recommend 50 ug / uL to use as a component in Energy Mix, or 35 ug / uL as a 10x stock for PUREΔtRNA reactions (add 1 uL to 10 uL reactions).
 
 ## Storage
 

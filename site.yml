@@ -1,0 +1,16 @@
+version: 1
+project:
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: cern-ohl-p
+
+site:
+  template: book-theme
+  options:
+    hide_outline: true
+    hide_toc: true
+    # logo_url: https://bnext.bio/nucleus
+    # favicon: https://raw.githubusercontent.com/jupyter-book/jupyter-book/refs/heads/next/docs/media/images/favicon.ico
+    # logo: ./logo-v1.png
+    # logo_dark: https://raw.githubusercontent.com/jupyter-book/jupyter-book/refs/heads/next/docs/media/images/logo-dark.svg

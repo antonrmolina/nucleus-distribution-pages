@@ -1,5 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
+extends:
+  - ./site.yml
 project:
   id: 67c08a7c-41d6-452f-9195-44be1c24d3eb
   # title:
